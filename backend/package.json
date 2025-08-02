@@ -1,0 +1,24 @@
+{
+  "name": "task-manager-backend-final",
+  "version": "1.0.0",
+  "description": "## Features - User registration and login (JWT-based) - Role-based access (user/admin) - Task management (CRUD) - File upload for tasks (up to 3 PDFs) - PostgreSQL database",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3"
+  }
+}
